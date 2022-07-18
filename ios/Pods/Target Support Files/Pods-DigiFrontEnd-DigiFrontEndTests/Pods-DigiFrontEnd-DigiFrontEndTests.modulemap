@@ -1,0 +1,6 @@
+module Pods_DigiFrontEnd_DigiFrontEndTests {
+  umbrella header "Pods-DigiFrontEnd-DigiFrontEndTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,143 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.digifrontend"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:4:3-65
+11-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:4:20-62
+12    <!-- // get the network state -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:6:3-77
+13-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:6:20-74
+14    <!-- // get the wifi state -->
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:8:3-74
+15-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:8:20-71
+16
+17    <queries>
+17-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:26:5-34:15
+18        <intent>
+18-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:27:9-33:18
+19            <action android:name="android.intent.action.VIEW" />
+19-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:28:13-65
+19-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:28:21-62
+20
+21            <category android:name="android.intent.category.BROWSABLE" />
+21-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:30:13-74
+21-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:30:23-71
+22
+23            <data android:scheme="https" />
+23-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:32:13-44
+23-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:32:19-41
+24        </intent>
+25    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+26-->[com.google.android.gms:play-services-iid:17.0.0] /Users/duygu/.gradle/caches/transforms-3/a0982743ceb7482c5c4e499dee9e0872/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+26-->[com.google.android.gms:play-services-iid:17.0.0] /Users/duygu/.gradle/caches/transforms-3/a0982743ceb7482c5c4e499dee9e0872/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+27-->[com.android.installreferrer:installreferrer:1.1.2] /Users/duygu/.gradle/caches/transforms-3/9fd42d7986dac23e35406ccd740b9a09/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+27-->[com.android.installreferrer:installreferrer:1.1.2] /Users/duygu/.gradle/caches/transforms-3/9fd42d7986dac23e35406ccd740b9a09/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+28
+29    <application
+29-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:10:3-18:17
+30        android:name="com.digifrontend.MainApplication"
+30-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:10:16-47
+31        android:allowBackup="false"
+31-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:10:162-189
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.6.0] /Users/duygu/.gradle/caches/transforms-3/5c61d7afbc1bcd99cb491da6ba2ee6c1/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:10:81-115
+34        android:label="@string/app_name"
+34-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:10:48-80
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:10:116-161
+36        android:theme="@style/AppTheme"
+36-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:10:190-221
+37        android:usesCleartextTraffic="true" >
+37-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:10:222-257
+38        <activity
+38-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:12:5-17:16
+39            android:name="com.digifrontend.MainActivity"
+39-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:12:15-43
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+40-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:12:77-186
+41            android:exported="true"
+41-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:12:262-285
+42            android:label="@string/app_name"
+42-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:12:44-76
+43            android:launchMode="singleTask"
+43-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:12:187-218
+44            android:windowSoftInputMode="adjustResize" >
+44-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:12:219-261
+45            <intent-filter>
+45-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:13:7-16:23
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:14:9-61
+46-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:14:17-58
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:15:9-69
+48-->/Users/duygu/duygudigitime/DigiTimeProject/android/app/src/main/AndroidManifest.xml:15:19-66
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:37:9-41:75
+52            android:name="net.openid.appauth.AuthorizationManagementActivity"
+52-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:38:13-78
+53            android:exported="false"
+53-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:39:13-37
+54            android:launchMode="singleTask"
+54-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:40:13-44
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:41:13-72
+56        <activity
+56-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:42:9-53:20
+57            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+57-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:43:13-74
+58            android:exported="true" >
+58-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:44:13-36
+59            <intent-filter>
+59-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:45:13-52:29
+60                <action android:name="android.intent.action.VIEW" />
+60-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:28:13-65
+60-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:28:21-62
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:48:17-76
+62-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:48:27-73
+63                <category android:name="android.intent.category.BROWSABLE" />
+63-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:30:13-74
+63-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:30:23-71
+64
+65                <data android:scheme="digifrontend" />
+65-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:32:13-44
+65-->[net.openid:appauth:0.8.1] /Users/duygu/.gradle/caches/transforms-3/7346eb527acea1d76c84e8975db9d9d8/transformed/jetified-appauth-0.8.1/AndroidManifest.xml:32:19-41
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->[com.google.android.gms:play-services-base:17.0.0] /Users/duygu/.gradle/caches/transforms-3/4c6541f5a0debbff754d3f6a1ab5ee55/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:17.0.0] /Users/duygu/.gradle/caches/transforms-3/4c6541f5a0debbff754d3f6a1ab5ee55/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:17.0.0] /Users/duygu/.gradle/caches/transforms-3/4c6541f5a0debbff754d3f6a1ab5ee55/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:17.0.0] /Users/duygu/.gradle/caches/transforms-3/4c6541f5a0debbff754d3f6a1ab5ee55/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+72
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:17.0.0] /Users/duygu/.gradle/caches/transforms-3/6d07939cea62d942059014120005b689/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:17.0.0] /Users/duygu/.gradle/caches/transforms-3/6d07939cea62d942059014120005b689/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:17.0.0] /Users/duygu/.gradle/caches/transforms-3/6d07939cea62d942059014120005b689/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+76    </application>
+77
+78</manifest>
